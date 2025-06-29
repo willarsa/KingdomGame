@@ -4,20 +4,25 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="site-header">
-      <h1 class="site-title">Stupid Arguments!</h1>
+    <div class="site-header" style="margin-bottom: 20px;">
+      <h1 class="site-title">Drunken Thrones</h1>
     </div>
     <div style="display: flex; justify-content: center;">
-      <button class="webutton">New World Event</button>
+      <button class="webutton" onclick="newWorldEvent()">New World Event</button>
     </div>
-    
-    <div class="body-container">
-      <div class="player-tally">
-        <input id="player-display" readonly>
-      </div>
+
+    <div style="display: flex; justify-content: center;">
+      <button class="webutton" onclick="reloadWorldEvents()">Reload World Events</button>
+    </div>
   
       <div class="text-button-container">
-        <input id="display" readonly>
+        <input id="display-name" readonly>
+      </div>
+      <div class="text-button-container">
+        <input id="display-desc" readonly>
+      </div>
+      <div class="text-button-container">
+        <input id="display-outcome" readonly>
       </div>
     </div>
     

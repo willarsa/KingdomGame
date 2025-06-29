@@ -105,3 +105,37 @@ button.webutton{
     font-size: 2rem;
     border-radius: 5px;
 }
+
+#display-name{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    font-weight: bold;
+    /* max-width: 500px; */
+}
+
+#display-desc{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    /* max-width: 500px; */
+}
+
+#display-outcome{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    /* max-width: 500px; */
+}
